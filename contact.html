@@ -19,13 +19,6 @@
   <!-- CSS-->
   <link href="vendor/bootstrap/css/style.css" rel="stylesheet">
 
-  <!--Other script-->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Script-->
-  <script src="script.js"></script>
-
   <!-- Fonts-->
   <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap" rel="stylesheet"> 
   
@@ -51,10 +44,10 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="contact.html">Contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">References</a>
+                <a class="nav-link" href="references.html">References</a>
             </li>
             </ul>
         </div>
@@ -67,7 +60,7 @@
         <div class="contact">
             <h3>Contact Us!</h3>
       
-            <form action="https://httpbin.org/post" method="post">
+            <form action="https://formspree.io/xwknjoda" method="post">
               <div>
                 <label for="name">First Name:</label>
                 <input type="text" id="name" name="firstname" required />
@@ -105,11 +98,12 @@
                 <input type="text" id="postalCode" name="postal code" required />
               </div>
       
-              <div>
+              <div class="check">
                 Would you like to be phoned?
                 <input type="checkbox" name="system_type" id="system_type-2" value="2" required />
               </div>
-              <div>
+              <br>
+              <div class='radio'>
                 <ul>
                   <li>
                     <input
@@ -118,7 +112,7 @@
                       id="question"
                       value="cash"
                       checked="checked"
-                    />Question
+                    /><label for ="name">Question</label>
                   </li>
                   <li><input type="radio" name="reason" id="comment" value="cheque" />Comment</li>
                   <li><input type="radio" name="reason" id="order" value="cheque" />Order Problem</li>
@@ -152,10 +146,20 @@
         <img class="" src="images/facebook.jpeg" alt="Facebook">
         <img class="" src="images/instagram.jpeg" alt="Instagram">
       </div>
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <p class="m-0 text-center text-white">Copyright &copy; For Earth</p>
     </div>
     <!-- /.container -->
   </footer>
+
+
+  <!--Other script-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Script-->
+ 
+
+
 </body>
 
 

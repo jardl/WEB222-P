@@ -41,6 +41,9 @@ body {
     margin: 4em 0;
 }
 
+footer {
+  color: white;
+}
 
 form {
     /* Just to center the form on the page */
@@ -109,8 +112,33 @@ form {
     background-color: #cff1ef;
   }
 
-li input, radio{
+li input{
+  
     margin: 0;
     border:0;
     padding: 0;
+    width: 1em;
+}
+
+.radio {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 30em;
+  text-align: left;
+}
+
+.check {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 30em;
+  text-align: left;
+}
+
+#system_type-2 {
+  width: 2em;
+}
+
+.ref {
+
+  text-align: center;
 }
