@@ -1,166 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-<head>
+    <title>Plastic Redefined</title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-  <title>Plastic Redefined</title>
+    <!-- Custom styles for this template -->
+    <link href="css/shop-homepage.css" rel="stylesheet" />
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS-->
+    <link href="vendor/bootstrap/css/style.css" rel="stylesheet" />
 
-  <!-- Custom styles for this template -->
-  <link href="css/shop-homepage.css" rel="stylesheet">
+    <!-- Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-  <!-- CSS-->
-  <link href="vendor/bootstrap/css/style.css" rel="stylesheet">
-
-  <!-- Fonts-->
-  <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap" rel="stylesheet"> 
-  
-
-</head>
-
-<body>
+  <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-        <a class="navbar-brand" href="#">For Earth</a>
-        <div class='logo' id='logo'>
-            <img class="" src="images/logo2.png" alt="Logo">
+      <div class="container">
+        <div class="logo" id="logo">
+          <img class="" src="images/logo2.png" alt="Logo" />
         </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand" href="#">For Earth</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home
-                <span class="sr-only">(current)</span>
-                </a>
+          <ul class="navbar-nav ml-auto">
+            <li>
+              <a class="nav-link" href="index.html">Home </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="references.html">References</a>
+              <a class="nav-link" href="index.html">Products</a>
             </li>
-            </ul>
+          </ul>
         </div>
-        </div>
+      </div>
     </nav>
 
-
     <div class="container">
+      <div class="contact">
+        <h3>Contact Us!</h3>
 
-        <div class="contact">
-            <h3>Contact Us!</h3>
-      
-            <form action="https://formspree.io/xwknjoda" method="post">
-              <div>
-                <label for="name">First Name:</label>
-                <input type="text" id="name" name="firstname" required />
-              </div>
-              <div>
-                <label for="name">Last Name:</label>
-                <input type="text" id="lastname" name="last name" required />
-              </div>
-              <div>
-                <label for="mail">E-mail:</label>
-                <input type="email" id="mail" name="email" required />
-              </div>
-              <div>
-                <label for="name">Address: </label>
-                <input type="text" id="address" name="address" required />
-              </div>
-              <div>
-                <label for="name">City:</label>
-                <input list="cities" id="city" name="city" required />
-                <datalist id="cities">
-                  <option value="Toronto"> </option>
-                  <option value="Sarnia"> </option>
-                  <option value="London"> </option>
-                  <option value="Mississauga"> </option>
-                  <option value="Oshawa"> </option>
-                  <option value="Windsor"> </option>
-                </datalist>
-              </div>
-              <div>
-                <label for="name">Phone Number: </label>
-                <input type="text" id="phoneNumber" name="phone number" required />
-              </div>
-              <div>
-                <label for="name">Postal Code: </label>
-                <input type="text" id="postalCode" name="postal code" required />
-              </div>
-      
-              <div class="check">
-                Would you like to be phoned?
-                <input type="checkbox" name="system_type" id="system_type-2" value="2" required />
-              </div>
-              <br>
-              <div class='radio'>
-                <ul>
-                  <li>
-                    <input
-                      type="radio"
-                      name="reason"
-                      id="question"
-                      value="cash"
-                      checked="checked"
-                    /><label for ="name">Question</label>
-                  </li>
-                  <li><input type="radio" name="reason" id="comment" value="cheque" />Comment</li>
-                  <li><input type="radio" name="reason" id="order" value="cheque" />Order Problem</li>
-                </ul>
-              </div>
-      
-              <div>
-                <input type="hidden" name="orderNumber" id="orderNumber" />
-              </div>
-              <div>
-                <label for="message">Message: </label>
-                <textarea id="message" name="message" required></textarea>
-              </div>
-              <div>
-                <input type="hidden" name="Jared Lecesne" id="hiddenName" />
-              </div>
-      
-              <div class="button">
-                <button type="submit">Send your message</button>
-              </div>
-            </form>
+        <form action="https://formspree.io/xwknjoda" method="post">
+          <div>
+            <label for="name">First Name:</label>
+            <input type="text" id="name" name="firstname" required />
+          </div>
+          <div>
+            <label for="name">Last Name:</label>
+            <input type="text" id="lastname" name="last name" required />
+          </div>
+          <div>
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail" name="email" required />
+          </div>
+          <div>
+            <label for="name">Address: </label>
+            <input type="text" id="address" name="address" required />
+          </div>
+          <div>
+            <label for="name">City:</label>
+            <input list="cities" id="city" name="city" required />
+            <datalist id="cities">
+              <option value="Toronto"> </option>
+              <option value="Sarnia"> </option>
+              <option value="London"> </option>
+              <option value="Mississauga"> </option>
+              <option value="Oshawa"> </option>
+              <option value="Windsor"> </option>
+            </datalist>
+          </div>
+          <div>
+            <label for="name">Phone Number: </label>
+            <input type="text" id="phoneNumber" name="phone number" required />
+          </div>
+          <div>
+            <label for="name">Postal Code: </label>
+            <input type="text" id="postalCode" name="postal code" required />
           </div>
 
+          <div class="check">
+            Would you like to be phoned?
+            <input type="checkbox" name="system_type" id="system_type-2" value="2" required />
+          </div>
+          <br />
+          <div class="radio">
+            <ul>
+              <li>
+                <input
+                  type="radio"
+                  name="reason"
+                  id="question"
+                  value="cash"
+                  checked="checked"
+                /><label for="name">Question</label>
+              </li>
+              <li><input type="radio" name="reason" id="comment" value="cheque" />Comment</li>
+              <li><input type="radio" name="reason" id="order" value="cheque" />Order Problem</li>
+            </ul>
+          </div>
 
+          <div>
+            <input type="hidden" name="orderNumber" id="orderNumber" />
+          </div>
+          <div>
+            <label for="message">Message: </label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <div>
+            <input type="hidden" name="Jared Lecesne" id="hiddenName" />
+          </div>
+
+          <div class="button">
+            <button type="submit">Send your message</button>
+          </div>
+        </form>
+      </div>
     </div>
 
     <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <div class='social' id='logo'>
-        <img class="" src="images/facebook.jpeg" alt="Facebook">
-        <img class="" src="images/instagram.jpeg" alt="Instagram">
+    <footer class="py-5 bg-dark">
+      <div class="container" style="text-align: center;">
+        <div class="social" id="logo">
+          <img class="" src="images/facebook.jpeg" alt="Facebook" />
+          <img class="" src="images/instagram.jpeg" alt="Instagram" />
+        </div>
+        <p class="m-0 text-center text-white">Copyright &copy; For Earth</p>
+        <h3>Subscribe to our Newsletter!</h3>
+        <form action="https://formspree.io/xoqndqzb" method="post">
+          <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" />
+          </div>
+          <div class="button">
+            <button type="submit">Subscribe</button>
+          </div>
+        </form>
       </div>
-      <p class="m-0 text-center text-white">Copyright &copy; For Earth</p>
-    </div>
-    <!-- /.container -->
-  </footer>
+      <!-- /.container -->
+    </footer>
 
+    <!--Other script-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!--Other script-->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Script-->
- 
-
-
-</body>
-
-
+    <!-- Script-->
+  </body>
 </html>

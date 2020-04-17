@@ -1,44 +1,40 @@
 #logo {
-    display: inline-block;
-  }
-  
-  #logo img {
-    
-    max-width: 4em;
-  }
+  position: relative;
+  align-self: flex-start;
+  margin-right: 2em;
+}
+
+#logo img {
+  max-width: 4em;
+}
 
 body {
-    background-color: #cff1ef;
+  background-color: #cff1ef;
 }
 
 #navbarResponsive {
-    font-family: 'Lexend Giga', sans-serif;
+  font-family: 'Lexend Giga', sans-serif;
 }
 
 .navbar-brand {
-    font-family: 'Lexend Giga', sans-serif;
+  font-family: 'Lexend Giga', sans-serif;
 }
 
 .social {
-    text-align: center;
-    display: inline-block;
+  text-align: center;
+  display: inline-block;
 }
 
 .social img {
-    max-width: 4em;
-}
-
-.container {
-    text-align: center;
+  max-width: 2em;
 }
 
 .list-group {
-    text-align: left;
+  text-align: left;
 }
 
-
-.contact{
-    margin: 4em 0;
+.contact {
+  margin: 4em 0;
 }
 
 footer {
@@ -46,92 +42,194 @@ footer {
 }
 
 form {
-    /* Just to center the form on the page */
-    margin: 0 auto;
-    width: 100%;
-    /* To see the outline of the form */
-    padding: 1em;
-    border: 1px solid #ccc;
-    border-radius: 1em;
-  }
-  
-  form div + div {
-    margin-top: 1em;
-  }
-  
-  label {
-    /* To make sure that all labels have the same size and are properly aligned */
-    display: inline-block;
-    width: 8em;
-    text-align: left;
-  }
-  
-  footer form input {
-    background-color: #ffebd9;
-  }
-  
-  input,
-  textarea {
-    /* To make sure that all text fields have the same font settings
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 100%;
+  /* To see the outline of the form */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* To make sure that all labels have the same size and are properly aligned */
+  display: inline-block;
+  width: 8em;
+  text-align: left;
+}
+
+footer form input {
+  background-color: #ffebd9;
+}
+
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
          By default, textareas have a monospace font */
-    font: 1em sans-serif;
-  
-    /* To give the same size to all text field */
-    width: 50%;
-    -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
-    -moz-box-sizing: border-box; /* For all Gecko based browsers */
-    box-sizing: border-box;
-  
-    /* To harmonize the look & feel of text field border */
-    border: 1px solid #999;
-    background-color: #cff1ef;
-  }
-  
-  input:focus,
-  textarea:focus {
-    /* To give a little highlight on active elements */
-    border-color: #000;
-  }
-  
-  input:focus,
-  textarea:focus {
-    /* To give a little highlight on active elements */
-    border-color: #000;
-  }
-  
-  textarea {
-    /* To properly align multiline text fields with their labels */
-    vertical-align: top;
-  
-    /* To give enough room to type some text */
-    height: 5em;
-  
-    /* To allow users to resize any textarea vertically
+  font: 1em sans-serif;
+
+  /* To give the same size to all text field */
+  width: 50%;
+  -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+  -moz-box-sizing: border-box; /* For all Gecko based browsers */
+  box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #999;
+  background-color: #cff1ef;
+}
+
+input:focus,
+textarea:focus {
+  /* To give a little highlight on active elements */
+  border-color: #000;
+}
+
+input:focus,
+textarea:focus {
+  /* To give a little highlight on active elements */
+  border-color: #000;
+}
+
+textarea {
+  /* To properly align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 5em;
+
+  /* To allow users to resize any textarea vertically
          It does not work on every browsers */
-    resize: vertical;
-    background-color: #cff1ef;
-  }
-
-li input{
-  
-    margin: 0;
-    border:0;
-    padding: 0;
-    width: 1em;
+  resize: vertical;
+  background-color: #cff1ef;
 }
 
-.radio {
+li input {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  width: 1em;
+}
+
+#logo {
+  position: relative;
+  align-self: flex-start;
+  margin-right: 2em;
+}
+
+#logo img {
+  max-width: 4em;
+}
+
+body {
+  background-color: #cff1ef;
+}
+
+#navbarResponsive {
+  font-family: 'Lexend Giga', sans-serif;
+}
+
+.navbar-brand {
+  font-family: 'Lexend Giga', sans-serif;
+}
+
+.social {
+  text-align: center;
   display: inline-block;
-  box-sizing: border-box;
-  width: 30em;
+}
+
+.social img {
+  max-width: 4em;
+}
+
+.list-group {
   text-align: left;
 }
 
-.check {
+.contact {
+  margin: 4em 0;
+}
+
+footer {
+  color: white;
+}
+
+form {
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 100%;
+  /* To see the outline of the form */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* To make sure that all labels have the same size and are properly aligned */
   display: inline-block;
-  box-sizing: border-box;
-  width: 30em;
+  width: 8em;
   text-align: left;
+}
+
+footer form input {
+  background-color: #ffebd9;
+}
+
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+         By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* To give the same size to all text field */
+  width: 50%;
+  -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+  -moz-box-sizing: border-box; /* For all Gecko based browsers */
+  box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #999;
+  background-color: #cff1ef;
+}
+
+input:focus,
+textarea:focus {
+  /* To give a little highlight on active elements */
+  border-color: #000;
+}
+
+input:focus,
+textarea:focus {
+  /* To give a little highlight on active elements */
+  border-color: #000;
+}
+
+textarea {
+  /* To properly align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 5em;
+
+  /* To allow users to resize any textarea vertically
+         It does not work on every browsers */
+  resize: vertical;
+  background-color: #cff1ef;
+}
+
+li input {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  width: 1em;
 }
 
 #system_type-2 {
@@ -139,6 +237,7 @@ li input{
 }
 
 .ref {
-
-  text-align: center;
+  margin-top: 2em;
+  text-align: left;
+  width: 100%;
 }
